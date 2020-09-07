@@ -12,6 +12,10 @@
     <![endif]-->
   </head>
   <body>
+
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v8.0&appId=268993250220261&autoLogAppEvents=1" nonce="pl7rWOMg"></script>
+
     <div class="wrapper">
       <header>
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
@@ -43,6 +47,13 @@
       {{ content }}
 
       </section>
+
+      <section>
+
+        <div class="fb-page" data-href="https://www.facebook.com/&#x4e09;&#x6d66;&#x5c4b;-101606721423649/" data-tabs="timeline" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/&#x4e09;&#x6d66;&#x5c4b;-101606721423649/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/&#x4e09;&#x6d66;&#x5c4b;-101606721423649/">三浦屋</a></blockquote></div>
+
+      </section>
+
       <footer>
         {% if site.github.is_project_page %}
         <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
