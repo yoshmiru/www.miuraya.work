@@ -1,2 +1,16 @@
 theme: jekyll-theme-minimal
 google_analytics: [UA-177313294-1]
+plugins:
+  - jekyll-seo-tag
+title: 三浦屋
+tagline: 宮城県産のお米を生産・販売しています
+description: 安心・安全で美味しいお米の生産と販売を行っています。持続可能な農業を目指して、農薬不使用や自家製の堆肥を使うなど、有機栽培も行っています。
+#twitter:
+#  username:
+#  card: summary
+facebook:
+  #  app_id:
+  publisher: https://www.facebook.com/%E4%B8%89%E6%B5%A6%E5%B1%8B-101606721423649
+  admins: yoshmiru
+logo: /assets/logo.png
+lang: ja-JP
