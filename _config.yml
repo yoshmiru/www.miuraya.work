@@ -1,11 +1,22 @@
-theme: jekyll-theme-minimal
+#theme: jekyll-theme-minimal
+theme: minima
 google_analytics: [UA-177313294-1]
 google_site_verification: W42Id_6czheey8dl8upWWdtKyxYZ2Q_GU9I1NIM3aZo
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
 title: 三浦屋
+author:
+  name: 三浦屋
+  email: postmaster@miuraya.work
 tagline: 宮城県産のお米を生産・販売しています
-description: 安心・安全で美味しいお米の生産と販売を行っています。持続可能な農業を目指して、農薬不使用や自家製の堆肥を使うなど、有機栽培も行っています。
+description: > # this means to ignore newlines until "show_excerpts:"
+  安心・安全で美味しいお米の生産と販売を行っています。
+  持続可能な農業を目指して、農薬不使用や自家製の堆肥を使うなど、有機栽培も行っています。
+
+show_excerpts: false # set to true to show excerpts on the homepage
+
 #twitter:
 #  username:
 #  card: summary
@@ -15,3 +26,46 @@ facebook:
   admins: yoshmiru
 logo: /assets/logo.png
 lang: ja-JP
+
+# Minima date format
+# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
+minima:
+  date_format: "%b %-d, %Y"
+
+  # generate social links in footer
+  social_links:
+    #twitter: yoshmiru
+    github:  yoshmiru
+    # devto: jekyll
+    # dribbble: jekyll
+    facebook: 三浦屋-101606721423649
+    # flickr:   jekyll
+    instagram: miura.ya
+    # linkedin: jekyll
+    # pinterest: jekyll
+    # youtube: jekyll
+    # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
+    # youtube_channel_name: CloudCannon
+    # telegram: jekyll
+    # googleplus: +jekyll
+    # microdotblog: jekyll
+    # keybase: jekyll
+
+    # Mastodon instances
+    # mastodon:
+    # - username: jekyll
+    #   instance: example.com
+    # - username: jekyll2
+    #   instance: example.com
+
+    # GitLab instances
+    # gitlab:
+    # - username: jekyll
+    #   instance: example.com
+    # - username: jekyll2
+    #   instance: example.com
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+#header_pages:
+# - about.md
